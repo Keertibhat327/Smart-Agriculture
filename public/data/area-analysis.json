@@ -1,0 +1,1179 @@
+[
+  {
+    "areaId": "yel-01",
+    "generatedAt": "2026-10-09T14:19:40.997Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 824.7,
+      "monsoonRainfallMm": 404.6,
+      "avgTempC": 23.7,
+      "maxTempC": 39.1,
+      "minTempC": 10.2,
+      "heatStressDays": 53,
+      "drySpellDays": 244,
+      "avgHumidityPct": 69.6,
+      "avgWindMs": 2.9
+    },
+    "soil": {
+      "ph": 6.5,
+      "organicCarbonGkg": 19,
+      "nitrogenGkg": 1.57,
+      "cecCmolKg": 14.3,
+      "clayPct": 20.1,
+      "sandPct": 60.9,
+      "siltPct": 19,
+      "texture": "sandy loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Ragi",
+        "score": 91,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 88,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Beans",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Kharif / Rabi",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good peri-urban vegetable option",
+          "Avoid waterlogged plots",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Tomato",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Rabi / Summer with irrigation",
+        "waterNeed": "High",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "High-value option with irrigation",
+          "Needs flood and heat protection",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Leafy vegetables",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Year-round with irrigation",
+        "waterNeed": "High",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Fast return crop",
+          "Sensitive to heat and excess rain",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 824.7 mm with 53 heat-stress days.",
+        "Surface soil is classified as sandy loam with high fertility."
+      ]
+    },
+    "recommendationSummary": "Ragi is currently the best-ranked crop for Yelahanka Agricultural Belt (91/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "dev-02",
+    "generatedAt": "2026-10-09T14:19:55.694Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 824.7,
+      "monsoonRainfallMm": 404.6,
+      "avgTempC": 23.7,
+      "maxTempC": 39.1,
+      "minTempC": 10.2,
+      "heatStressDays": 53,
+      "drySpellDays": 244,
+      "avgHumidityPct": 69.6,
+      "avgWindMs": 2.9
+    },
+    "soil": {
+      "ph": 6.6,
+      "organicCarbonGkg": 19.6,
+      "nitrogenGkg": 1.12,
+      "cecCmolKg": 14.1,
+      "clayPct": 21.5,
+      "sandPct": 62.7,
+      "siltPct": 15.8,
+      "texture": "sandy loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 88,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Ragi",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Beans",
+        "score": 76,
+        "fit": "Very High",
+        "season": "Kharif / Rabi",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good peri-urban vegetable option",
+          "Avoid waterlogged plots",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Marigold / floriculture",
+        "score": 76,
+        "fit": "Very High",
+        "season": "Rabi / irrigated",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "High-value peri-urban crop",
+          "Needs heat and drainage management",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Grapes",
+        "score": 74,
+        "fit": "High",
+        "season": "Perennial horticulture",
+        "waterNeed": "High",
+        "expectedEfficiency": "Good with management",
+        "reasons": [
+          "Needs assured irrigation and management",
+          "Disease risk rises with excess humidity",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Needs assured irrigation; not ideal for rainfed plots."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 824.7 mm with 53 heat-stress days.",
+        "Surface soil is classified as sandy loam with high fertility.",
+        "Nearby rainfed parcels need contingency crops and soil-moisture conservation."
+      ]
+    },
+    "recommendationSummary": "Red gram / Pigeon pea is currently the best-ranked crop for Devanahalli Horticulture Zone (88/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "hos-03",
+    "generatedAt": "2026-10-09T14:19:59.479Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 887.2,
+      "monsoonRainfallMm": 434.7,
+      "avgTempC": 23.7,
+      "maxTempC": 38.7,
+      "minTempC": 10.7,
+      "heatStressDays": 46,
+      "drySpellDays": 242,
+      "avgHumidityPct": 71.4,
+      "avgWindMs": 2.9
+    },
+    "soil": {
+      "ph": 6.6,
+      "organicCarbonGkg": 17.6,
+      "nitrogenGkg": 1.21,
+      "cecCmolKg": 19.4,
+      "clayPct": 23.2,
+      "sandPct": 58.1,
+      "siltPct": 18.7,
+      "texture": "sandy loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 88,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Ragi",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Grapes",
+        "score": 80,
+        "fit": "Very High",
+        "season": "Perennial horticulture",
+        "waterNeed": "High",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Needs assured irrigation and management",
+          "Disease risk rises with excess humidity",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Marigold / floriculture",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Rabi / irrigated",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "High-value peri-urban crop",
+          "Needs heat and drainage management",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer.",
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Maize",
+        "score": 74,
+        "fit": "High",
+        "season": "Kharif / Rabi with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "Good with management",
+        "reasons": [
+          "Good where rainfall is reliable",
+          "Needs moisture during tasseling",
+          "Climate match: 50 / 50",
+          "Soil match: 34 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer.",
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 887.2 mm with 46 heat-stress days.",
+        "Surface soil is classified as sandy loam with high fertility.",
+        "Surrounding low-lying and drainage-adjacent parcels should be inspected before monsoon sowing."
+      ]
+    },
+    "recommendationSummary": "Red gram / Pigeon pea is currently the best-ranked crop for Hoskote Vegetable Cluster (88/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "ane-04",
+    "generatedAt": "2026-10-09T14:20:02.580Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 823.5,
+      "monsoonRainfallMm": 383.7,
+      "avgTempC": 24.4,
+      "maxTempC": 39.4,
+      "minTempC": 11.4,
+      "heatStressDays": 58,
+      "drySpellDays": 240,
+      "avgHumidityPct": 69.9,
+      "avgWindMs": 2.5
+    },
+    "soil": {
+      "ph": 6.4,
+      "organicCarbonGkg": 22.8,
+      "nitrogenGkg": 1.63,
+      "cecCmolKg": 20.7,
+      "clayPct": 23.6,
+      "sandPct": 55.8,
+      "siltPct": 20.7,
+      "texture": "sandy loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Ragi",
+        "score": 91,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 88,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Beans",
+        "score": 76,
+        "fit": "Very High",
+        "season": "Kharif / Rabi",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good peri-urban vegetable option",
+          "Avoid waterlogged plots",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Marigold / floriculture",
+        "score": 76,
+        "fit": "Very High",
+        "season": "Rabi / irrigated",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "High-value peri-urban crop",
+          "Needs heat and drainage management",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Groundnut",
+        "score": 68,
+        "fit": "High",
+        "season": "Kharif / Summer with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "Good with management",
+        "reasons": [
+          "Performs well in well-drained light soils",
+          "Sensitive to waterlogging",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 823.5 mm with 58 heat-stress days.",
+        "Surface soil is classified as sandy loam with high fertility."
+      ]
+    },
+    "recommendationSummary": "Ragi is currently the best-ranked crop for Anekal Millet and Floriculture Belt (91/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "kan-05",
+    "generatedAt": "2026-10-09T14:20:07.098Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 823.5,
+      "monsoonRainfallMm": 383.7,
+      "avgTempC": 24.4,
+      "maxTempC": 39.4,
+      "minTempC": 11.4,
+      "heatStressDays": 58,
+      "drySpellDays": 240,
+      "avgHumidityPct": 69.9,
+      "avgWindMs": 2.5
+    },
+    "soil": {
+      "ph": 6.5,
+      "organicCarbonGkg": 19,
+      "nitrogenGkg": 1.5,
+      "cecCmolKg": 20.4,
+      "clayPct": 32.6,
+      "sandPct": 41.3,
+      "siltPct": 26.1,
+      "texture": "loam",
+      "fertility": "High",
+      "drainage": "Moderate"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 96,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Ragi",
+        "score": 91,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Groundnut",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Kharif / Summer with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Performs well in well-drained light soils",
+          "Sensitive to waterlogging",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / Rabi with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good where rainfall is reliable",
+          "Needs moisture during tasseling",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Beans",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / Rabi",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good peri-urban vegetable option",
+          "Avoid waterlogged plots",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 823.5 mm with 58 heat-stress days.",
+        "Surface soil is classified as loam with high fertility.",
+        "Nearby rainfed parcels need contingency crops and soil-moisture conservation."
+      ]
+    },
+    "recommendationSummary": "Red gram / Pigeon pea is currently the best-ranked crop for Kanakapura Rainfed Farms (96/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "nel-06",
+    "generatedAt": "2026-10-09T14:20:10.702Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 824.7,
+      "monsoonRainfallMm": 404.6,
+      "avgTempC": 23.7,
+      "maxTempC": 39.1,
+      "minTempC": 10.2,
+      "heatStressDays": 53,
+      "drySpellDays": 244,
+      "avgHumidityPct": 69.6,
+      "avgWindMs": 2.9
+    },
+    "soil": {
+      "ph": 6.3,
+      "organicCarbonGkg": 18.6,
+      "nitrogenGkg": 1.3,
+      "cecCmolKg": 8.8,
+      "clayPct": 20.1,
+      "sandPct": 64.4,
+      "siltPct": 15.5,
+      "texture": "sandy loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Ragi",
+        "score": 91,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 88,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Beans",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Kharif / Rabi",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good peri-urban vegetable option",
+          "Avoid waterlogged plots",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Tomato",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Rabi / Summer with irrigation",
+        "waterNeed": "High",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "High-value option with irrigation",
+          "Needs flood and heat protection",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Leafy vegetables",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Year-round with irrigation",
+        "waterNeed": "High",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Fast return crop",
+          "Sensitive to heat and excess rain",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 824.7 mm with 53 heat-stress days.",
+        "Surface soil is classified as sandy loam with high fertility."
+      ]
+    },
+    "recommendationSummary": "Ragi is currently the best-ranked crop for Nelamangala Mixed Cropping Zone (91/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "ram-07",
+    "generatedAt": "2026-10-09T14:20:14.224Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 823.5,
+      "monsoonRainfallMm": 383.7,
+      "avgTempC": 24.4,
+      "maxTempC": 39.4,
+      "minTempC": 11.4,
+      "heatStressDays": 58,
+      "drySpellDays": 240,
+      "avgHumidityPct": 69.9,
+      "avgWindMs": 2.5
+    },
+    "soil": {
+      "ph": 6.4,
+      "organicCarbonGkg": 23.3,
+      "nitrogenGkg": 1.78,
+      "cecCmolKg": 14.7,
+      "clayPct": 22.4,
+      "sandPct": 54.9,
+      "siltPct": 22.7,
+      "texture": "loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 96,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Ragi",
+        "score": 91,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "No major constraint detected from available climate and soil indicators."
+        ]
+      },
+      {
+        "crop": "Groundnut",
+        "score": 76,
+        "fit": "Very High",
+        "season": "Kharif / Summer with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Performs well in well-drained light soils",
+          "Sensitive to waterlogging",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Maize",
+        "score": 68,
+        "fit": "High",
+        "season": "Kharif / Rabi with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "Good with management",
+        "reasons": [
+          "Good where rainfall is reliable",
+          "Needs moisture during tasseling",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      },
+      {
+        "crop": "Beans",
+        "score": 68,
+        "fit": "High",
+        "season": "Kharif / Rabi",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "Good with management",
+        "reasons": [
+          "Good peri-urban vegetable option",
+          "Avoid waterlogged plots",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 823.5 mm with 58 heat-stress days.",
+        "Surface soil is classified as loam with high fertility.",
+        "Nearby rainfed parcels need contingency crops and soil-moisture conservation."
+      ]
+    },
+    "recommendationSummary": "Red gram / Pigeon pea is currently the best-ranked crop for Ramanagara Dryland Interface (96/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  },
+  {
+    "areaId": "sar-08",
+    "generatedAt": "2026-10-09T14:20:18.018Z",
+    "dataMode": "real-api",
+    "sources": [
+      "NASA POWER daily AG API (20250101-20251231)",
+      "ISRIC SoilGrids v2.0 point query",
+      "Crop suitability rules adapted from FAO ECOCROP-style climate/soil constraints"
+    ],
+    "climate": {
+      "annualRainfallMm": 824.7,
+      "monsoonRainfallMm": 404.6,
+      "avgTempC": 23.7,
+      "maxTempC": 39.1,
+      "minTempC": 10.2,
+      "heatStressDays": 53,
+      "drySpellDays": 244,
+      "avgHumidityPct": 69.6,
+      "avgWindMs": 2.9
+    },
+    "soil": {
+      "ph": 6.7,
+      "organicCarbonGkg": 19,
+      "nitrogenGkg": 1.49,
+      "cecCmolKg": 19.4,
+      "clayPct": 29.5,
+      "sandPct": 50.2,
+      "siltPct": 20.3,
+      "texture": "loam",
+      "fertility": "High",
+      "drainage": "Good"
+    },
+    "cropSuitability": [
+      {
+        "crop": "Red gram / Pigeon pea",
+        "score": 88,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful contingency crop",
+          "Tolerates moderate dry spells",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Fodder maize",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Kharif / irrigated blocks",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Useful for mixed farming",
+          "Can tolerate moderate heat",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Marigold / floriculture",
+        "score": 86,
+        "fit": "Very High",
+        "season": "Rabi / irrigated",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "High-value peri-urban crop",
+          "Needs heat and drainage management",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer.",
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Ragi",
+        "score": 83,
+        "fit": "Very High",
+        "season": "Kharif",
+        "waterNeed": "Low",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good dryland resilience",
+          "Suitable for Karnataka rainfed belts",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Grapes",
+        "score": 80,
+        "fit": "Very High",
+        "season": "Perennial horticulture",
+        "waterNeed": "High",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Needs assured irrigation and management",
+          "Disease risk rises with excess humidity",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      },
+      {
+        "crop": "Maize",
+        "score": 78,
+        "fit": "Very High",
+        "season": "Kharif / Rabi with irrigation",
+        "waterNeed": "Medium",
+        "expectedEfficiency": "High input efficiency expected",
+        "reasons": [
+          "Good where rainfall is reliable",
+          "Needs moisture during tasseling",
+          "Climate match: 50 / 50",
+          "Soil match: 38 / 38"
+        ],
+        "warnings": [
+          "Heat stress protection needed during peak summer.",
+          "Use raised beds or avoid low-lying plots during monsoon."
+        ]
+      }
+    ],
+    "surroundings": {
+      "bufferKm": 5,
+      "notes": [
+        "A 5 km planning buffer is represented by the polygon centroid and surrounding taluk context.",
+        "Annual rainfall signal is 824.7 mm with 53 heat-stress days.",
+        "Surface soil is classified as loam with high fertility.",
+        "Surrounding low-lying and drainage-adjacent parcels should be inspected before monsoon sowing."
+      ]
+    },
+    "recommendationSummary": "Red gram / Pigeon pea is currently the best-ranked crop for Sarjapura Peri-Urban Farms (88/100) because the local rainfall, temperature and soil profile fit its requirements better than the alternatives."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "yel-01",
+    "name": "Yelahanka Agricultural Belt",
+    "taluk": "Bengaluru North",
+    "centroid": [13.16, 77.58],
+    "dominantCrops": ["ragi", "vegetables", "fodder"],
+    "hazards": { "flood": 58, "heat": 64, "drought": 46 },
+    "exposure": 68,
+    "vulnerability": 62,
+    "shapFactors": [
+      { "feature": "Impervious surface growth", "contribution": 18, "direction": "increases" },
+      { "feature": "Rainfall anomaly", "contribution": 15, "direction": "increases" },
+      { "feature": "Moderate vegetation cover", "contribution": 8, "direction": "reduces" },
+      { "feature": "Population near fields", "contribution": 10, "direction": "increases" }
+    ],
+    "advice": "Moderate to high risk. Prioritize drainage checks before intense rainfall and use short-duration vegetable varieties where sowing is delayed.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Prefer ragi, fodder maize and short-duration vegetables.", "Avoid expanding water-sensitive crops in low-lying plots."],
+      "irrigationPlanning": ["Use soil-moisture checks before irrigation.", "Plan supplemental irrigation during heat spells."],
+      "sowingWindow": ["Use a staggered sowing window around forecast rainfall.", "Avoid sowing immediately before high-rainfall alerts."],
+      "floodPreparedness": ["Clear field drains and roadside channels.", "Keep seed and fertilizer storage above expected waterlogging level."],
+      "heatStress": ["Use mulching for vegetable beds.", "Schedule irrigation in early morning or evening."],
+      "riskMonitoring": ["Review rainfall and temperature risk weekly.", "Recheck high-risk plots after every heavy rainfall event."]
+    }
+  },
+  {
+    "id": "dev-02",
+    "name": "Devanahalli Horticulture Zone",
+    "taluk": "Devanahalli",
+    "centroid": [13.22, 77.75],
+    "dominantCrops": ["grapes", "vegetables", "flowers"],
+    "hazards": { "flood": 42, "heat": 72, "drought": 66 },
+    "exposure": 72,
+    "vulnerability": 70,
+    "shapFactors": [
+      { "feature": "High temperature anomaly", "contribution": 22, "direction": "increases" },
+      { "feature": "Groundwater stress", "contribution": 19, "direction": "increases" },
+      { "feature": "Drip irrigation adoption", "contribution": 9, "direction": "reduces" },
+      { "feature": "Low rainfall reliability", "contribution": 13, "direction": "increases" }
+    ],
+    "advice": "High risk under heat and water stress. Protect horticulture crops with irrigation scheduling, shade nets where feasible and heat monitoring.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Prefer heat-tolerant vegetable varieties.", "Use protected cultivation for high-value flowers where feasible."],
+      "irrigationPlanning": ["Prioritize drip irrigation and deficit-irrigation planning.", "Check pump and storage availability before heat waves."],
+      "sowingWindow": ["Avoid transplanting during peak heat weeks.", "Use nursery hardening before field transfer."],
+      "floodPreparedness": ["Maintain bund outlets for sudden rainfall.", "Protect input stores from localized runoff."],
+      "heatStress": ["Use shade nets for nurseries.", "Increase irrigation frequency with smaller doses."],
+      "riskMonitoring": ["Track daily maximum temperature.", "Monitor leaf wilt and soil moisture during afternoon hours."]
+    }
+  },
+  {
+    "id": "hos-03",
+    "name": "Hoskote Vegetable Cluster",
+    "taluk": "Hoskote",
+    "centroid": [13.0, 77.87],
+    "dominantCrops": ["tomato", "beans", "leafy vegetables"],
+    "hazards": { "flood": 76, "heat": 58, "drought": 44 },
+    "exposure": 78,
+    "vulnerability": 67,
+    "shapFactors": [
+      { "feature": "Low-lying drainage proximity", "contribution": 24, "direction": "increases" },
+      { "feature": "Extreme rainfall days", "contribution": 20, "direction": "increases" },
+      { "feature": "Vegetation health", "contribution": 7, "direction": "reduces" },
+      { "feature": "High crop value exposure", "contribution": 12, "direction": "increases" }
+    ],
+    "advice": "Very flood-sensitive vegetable cluster. Use raised beds, keep drainage open and avoid fertilizer application immediately before heavy rain.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Use raised-bed vegetables in low-lying parcels.", "Prefer crops with shorter field duration during monsoon."],
+      "irrigationPlanning": ["Pause irrigation after heavy rainfall.", "Use field-level waterlogging checks."],
+      "sowingWindow": ["Delay sowing if heavy rainfall is expected within 48 hours.", "Use nursery backup for leafy vegetables."],
+      "floodPreparedness": ["Clear drainage before monsoon.", "Prepare temporary channels from vulnerable plots."],
+      "heatStress": ["Mulch exposed vegetable rows.", "Avoid pesticide sprays during peak heat."],
+      "riskMonitoring": ["Watch rainfall intensity alerts.", "Inspect fields within 12 hours after heavy rain."]
+    }
+  },
+  {
+    "id": "ane-04",
+    "name": "Anekal Millet and Floriculture Belt",
+    "taluk": "Anekal",
+    "centroid": [12.72, 77.66],
+    "dominantCrops": ["ragi", "flowers", "vegetables"],
+    "hazards": { "flood": 48, "heat": 69, "drought": 61 },
+    "exposure": 64,
+    "vulnerability": 58,
+    "shapFactors": [
+      { "feature": "Temperature anomaly", "contribution": 19, "direction": "increases" },
+      { "feature": "Rainfed acreage", "contribution": 15, "direction": "increases" },
+      { "feature": "Mixed cropping", "contribution": 8, "direction": "reduces" },
+      { "feature": "Moderate slope", "contribution": 6, "direction": "reduces" }
+    ],
+    "advice": "Moderate risk. Ragi remains suitable, but floriculture and vegetables need heat and irrigation safeguards.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Use ragi and mixed cropping for risk buffering.", "Reserve high-value flowers for plots with reliable water."],
+      "irrigationPlanning": ["Schedule protective irrigation during flowering.", "Use mulch in vegetable plots."],
+      "sowingWindow": ["Align ragi sowing with first reliable rainfall.", "Avoid late sowing for water-demanding vegetables."],
+      "floodPreparedness": ["Check runoff paths near floriculture beds.", "Keep temporary bund repair material ready."],
+      "heatStress": ["Use shade and misting for nurseries.", "Avoid midday harvesting of flowers."],
+      "riskMonitoring": ["Track weekly rainfall deficit.", "Monitor crop stress signs after hot nights."]
+    }
+  },
+  {
+    "id": "kan-05",
+    "name": "Kanakapura Rainfed Farms",
+    "taluk": "Kanakapura",
+    "centroid": [12.64, 77.4],
+    "dominantCrops": ["ragi", "pulses", "oilseeds"],
+    "hazards": { "flood": 36, "heat": 55, "drought": 74 },
+    "exposure": 55,
+    "vulnerability": 73,
+    "shapFactors": [
+      { "feature": "Rainfall deficit", "contribution": 24, "direction": "increases" },
+      { "feature": "Rainfed dependency", "contribution": 21, "direction": "increases" },
+      { "feature": "Lower built-up exposure", "contribution": 8, "direction": "reduces" },
+      { "feature": "Vegetation stress", "contribution": 12, "direction": "increases" }
+    ],
+    "advice": "High drought/water-stress concern. Favor hardy millets and pulses, conserve soil moisture and avoid water-intensive crop choices.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Prefer ragi, horse gram and other low-water crops.", "Avoid water-intensive vegetables without assured irrigation."],
+      "irrigationPlanning": ["Use farm ponds and protective irrigation first for critical crop stages.", "Prioritize moisture conservation."],
+      "sowingWindow": ["Wait for reliable rainfall before sowing.", "Use contingency crops if monsoon onset is delayed."],
+      "floodPreparedness": ["Maintain contour bunds for intense rainfall bursts.", "Protect topsoil from runoff."],
+      "heatStress": ["Use residue cover to reduce soil temperature.", "Avoid fertilizer stress during dry heat."],
+      "riskMonitoring": ["Track rainfall deficit every week.", "Monitor NDVI-like vegetation condition outputs when available."]
+    }
+  },
+  {
+    "id": "nel-06",
+    "name": "Nelamangala Mixed Cropping Zone",
+    "taluk": "Nelamangala",
+    "centroid": [13.11, 77.41],
+    "dominantCrops": ["ragi", "maize", "vegetables"],
+    "hazards": { "flood": 52, "heat": 60, "drought": 58 },
+    "exposure": 59,
+    "vulnerability": 64,
+    "shapFactors": [
+      { "feature": "Mixed rainfall variability", "contribution": 16, "direction": "increases" },
+      { "feature": "Transport corridor exposure", "contribution": 13, "direction": "increases" },
+      { "feature": "Moderate crop diversity", "contribution": 9, "direction": "reduces" },
+      { "feature": "Soil moisture variability", "contribution": 14, "direction": "increases" }
+    ],
+    "advice": "Moderate risk with balanced hazards. Use crop diversification and monitor both rainfall excess and deficit.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Maintain mixed cropping to spread risk.", "Use maize only where irrigation backup exists."],
+      "irrigationPlanning": ["Trigger irrigation from soil moisture rather than calendar date.", "Store water after rainfall surplus."],
+      "sowingWindow": ["Use staggered sowing over 1-2 weeks.", "Keep contingency seed for delayed rainfall."],
+      "floodPreparedness": ["Check drainage near road-adjacent plots.", "Avoid input storage in runoff paths."],
+      "heatStress": ["Use mulching where soil moisture is low.", "Avoid midday field operations during heat alerts."],
+      "riskMonitoring": ["Review both heat and rainfall dashboards.", "Compare scenario sliders before choosing crop mix."]
+    }
+  },
+  {
+    "id": "ram-07",
+    "name": "Ramanagara Dryland Interface",
+    "taluk": "Ramanagara",
+    "centroid": [12.74, 77.26],
+    "dominantCrops": ["ragi", "groundnut", "pulses"],
+    "hazards": { "flood": 30, "heat": 66, "drought": 78 },
+    "exposure": 52,
+    "vulnerability": 76,
+    "shapFactors": [
+      { "feature": "Drought hazard", "contribution": 27, "direction": "increases" },
+      { "feature": "Heat stress days", "contribution": 18, "direction": "increases" },
+      { "feature": "Lower flood exposure", "contribution": 7, "direction": "reduces" },
+      { "feature": "Rainfed vulnerability", "contribution": 16, "direction": "increases" }
+    ],
+    "advice": "High dryland risk. Keep drought-resilient crops central and use contingency sowing decisions if rainfall is delayed.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Use ragi, pulses and groundnut with drought-tolerant varieties.", "Avoid long-duration crops in poor rainfall years."],
+      "irrigationPlanning": ["Reserve water for germination and flowering stages.", "Use mulching and field bunding."],
+      "sowingWindow": ["Delay sowing until soil moisture is adequate.", "Switch to contingency pulses if sowing is late."],
+      "floodPreparedness": ["Maintain contour bunds for occasional intense rain.", "Protect seed from runoff damage."],
+      "heatStress": ["Avoid sowing during extreme heat windows.", "Use residue retention to reduce evaporation."],
+      "riskMonitoring": ["Track rainfall deficit and hot-night periods.", "Review drought layer before crop selection."]
+    }
+  },
+  {
+    "id": "sar-08",
+    "name": "Sarjapura Peri-Urban Farms",
+    "taluk": "Bengaluru East",
+    "centroid": [12.87, 77.77],
+    "dominantCrops": ["vegetables", "flowers", "fodder"],
+    "hazards": { "flood": 70, "heat": 62, "drought": 50 },
+    "exposure": 82,
+    "vulnerability": 69,
+    "shapFactors": [
+      { "feature": "Peri-urban built-up pressure", "contribution": 22, "direction": "increases" },
+      { "feature": "Drainage congestion", "contribution": 20, "direction": "increases" },
+      { "feature": "Irrigation access", "contribution": 8, "direction": "reduces" },
+      { "feature": "High-value crop exposure", "contribution": 15, "direction": "increases" }
+    ],
+    "advice": "High peri-urban flood and heat risk. Keep drainage open, protect nurseries and review flood preparedness before monsoon events.",
+    "notes": "PLACEHOLDER SAMPLE DATA - replace with offline ML output.",
+    "decisionSupport": {
+      "cropPlanning": ["Use raised beds for vegetables.", "Place nurseries away from drainage bottlenecks."],
+      "irrigationPlanning": ["Avoid over-irrigation before expected rainfall.", "Use small frequent irrigation during heat spells."],
+      "sowingWindow": ["Avoid sowing just before heavy rain.", "Use protected nursery scheduling for flowers."],
+      "floodPreparedness": ["Clear local drains before monsoon.", "Keep pumps or emergency drainage options ready."],
+      "heatStress": ["Use shade nets for seedlings.", "Avoid pesticide sprays during peak heat."],
+      "riskMonitoring": ["Monitor rainfall alerts and local drainage conditions.", "Inspect fields quickly after intense rainfall."]
+    }
+  }
+]

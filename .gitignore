@@ -1,21 +1,15 @@
-# Environment variables — contains GEE private key, never commit
-backend/.env
-backend/*.json
-
-# Node
+.pip-tmp*/
+.tmp/
+dist/
 node_modules/
-
-# Python
 __pycache__/
-*.py[cod]
-*.pyo
-venv/
-.venv/
-*.egg-info/
+backend/__pycache__/
+backend/.python_packages/
+.next/
 dist/
 build/
-
-# OS
+.env
+.env.*
+!.env.example
 .DS_Store
-Thumbs.db
-desktop.ini
+*.log
