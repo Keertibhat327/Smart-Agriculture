@@ -1,18 +1,22 @@
 :root {
   font-family: "Segoe UI", Inter, system-ui, sans-serif;
   color-scheme: dark;
-  --bg: #201914; --panel: #2b221c; --soft: #352b23; --ink: #f2efe9;
-  --muted: #b7aea3; --line: #4b3e32; --green: #a8d58a; --green-dark: #a8d58a;
-  --map-panel: rgba(43,34,28,.95); --accent: #d6ad56;
-  --chart-score: #a8d58a; --chart-flood: #789887; --chart-heat: #c3a371; --chart-drought: #a98a78;
+  --bg: #241c17; --panel: #30261f; --soft: #3b3026; --ink: #faf3e8;
+  --muted: #c0b3a2; --line: #514333; --green: #b8d481; --green-dark: #b8d481;
+  --map-panel: rgba(48,38,31,.97); --accent: #efb856;
+  --forest: #125b47; --olive: #92945c; --peach: #e7b58e;
+  --active-bg: #244236; --active-ink: #d8e7b1;
+  --chart-score: #b8d481; --chart-flood: #69ad93; --chart-heat: #efb856; --chart-drought: #d6a484;
   color: var(--ink); background: var(--bg); font-size: 14px;
 }
 :root[data-theme="light"] {
   color-scheme: light;
-  --bg: #edf0ed; --panel: #fff; --soft: #f4f6f4; --ink: #192a23;
-  --muted: #6b766f; --line: #e0e5e0; --green: #26734e; --green-dark: #1c6544;
-  --map-panel: rgba(255,255,255,.96); --accent: #987014;
-  --chart-score: #26734e; --chart-flood: #6f9987; --chart-heat: #ad8644; --chart-drought: #937565;
+  --bg: #edf4ef; --panel: #fffefa; --soft: #e9f1e5; --ink: #163e32;
+  --muted: #657467; --line: #d7e2d5; --green: #12664b; --green-dark: #07543f;
+  --map-panel: rgba(255,254,250,.97); --accent: #996714;
+  --forest: #07543f; --olive: #808343; --peach: #bd805b;
+  --active-bg: #125b47; --active-ink: #f2f6da;
+  --chart-score: #12664b; --chart-flood: #68a48b; --chart-heat: #dba43e; --chart-drought: #bd805b;
 }
 * { box-sizing: border-box; letter-spacing: 0; }
 body { margin: 0; min-width: 320px; }
@@ -30,7 +34,8 @@ input[type="range"],input[type="checkbox"] { accent-color: var(--green); }
 .nav-rail { position: fixed; inset: 0 auto 0 0; width: 68px; background: var(--panel); border-right: 1px solid var(--line); display: flex; align-items: center; flex-direction: column; gap: 16px; padding: 20px 10px; z-index: 1200; }
 .rail-brand { display: grid; place-items: center; width: 40px; height: 40px; color: var(--green); margin-bottom: 20px; }
 .icon-button { width: 38px; height: 38px; flex-shrink: 0; display: grid; place-items: center; border-radius: 6px; color: var(--muted); }
-.icon-button:hover, .icon-button.active { color: var(--green); background: var(--soft); }
+.icon-button:hover { color: var(--green); background: var(--soft); }
+.icon-button.active { color: var(--active-ink); background: var(--active-bg); }
 .theme-toggle { margin-top: auto; }
 .topbar { height: 78px; display: flex; align-items: center; justify-content: space-between; padding: 14px 22px; gap: 24px; }
 .brand-lockup { display: flex; align-items: center; gap: 12px; min-width: 0; }
@@ -63,9 +68,9 @@ input[type="range"],input[type="checkbox"] { accent-color: var(--green); }
 .crop-season { color: var(--muted); font-size: 11px; margin: 8px 0 22px; }
 .focus-score { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--muted); }
 .focus-score strong { color: var(--ink); font-weight: 500; }
-.spectrum { height: 4px; margin: 12px 0; background: linear-gradient(90deg,#469849,#c5d644 45%,#e4aa37 70%,#d85242); position: relative; border-radius: 4px; }
+.spectrum { height: 4px; margin: 12px 0; background: linear-gradient(90deg,#659461,#bec975 45%,#efb856 70%,#c46c50); position: relative; border-radius: 4px; }
 .spectrum i { position: absolute; top: -2px; width: 8px; height: 8px; border: 1px solid #56514b; background: #fff; border-radius: 50%; transform: translateX(-50%); }
-.crop-focus .spectrum { background: linear-gradient(90deg,#d85242,#e4aa37 30%,#c5d644 55%,#469849); }
+.crop-focus .spectrum { background: linear-gradient(90deg,#c46c50,#efb856 30%,#bec975 55%,#659461); }
 .focus-description { font-size: 12px; color: var(--muted); line-height: 1.55; }
 .focus-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 12px; margin: 20px 0; }
 .focus-metrics > div { display: flex; align-items: center; gap: 9px; }
