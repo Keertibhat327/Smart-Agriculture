@@ -12,4 +12,6 @@ build/
 .env.*
 !.env.example
 .DS_Store
-*.log
+*.log.python_packages/
+__pycache__/
+*.pyc
